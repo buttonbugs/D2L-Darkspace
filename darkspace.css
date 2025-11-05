@@ -1,0 +1,33 @@
+@media (prefers-color-scheme: dark) {
+    /* background-color */
+    .d2l-navigation-s, .d2l-branding-navigation-background-color, .d2l-card-content, .d2l-tile, d2l-my-courses-container, #d2l_body, .d2l-body, .d2l-table > tbody, .d2l-table > tfoot, .dco{
+        background-color: #000 !important;
+    }
+    .d2l-tiles-container, .d2l-html-block-rendered > div, .d2l-button.d2l-button-focus, .d2l-button.d2l-button-hover, .d2l-button:focus, .d2l-button:hover, .d2l-button[active] {
+        background-color: #111 !important;
+    }
+    .d2l-twopanelselector-side.d2l-twopanelselector-side-sep, .d2l-twopanelselector-side-bg.d2l-twopanelselector-side-sep {
+        background: black !important;
+    }
+    /* color */
+    .d2l-navigation-s-header-logo-area a.d2l-navigation-s-link, .d2l-navigation-s-header-logo-area a.d2l-navigation-s-link:link, .d2l-navigation-s-header-logo-area a.d2l-navigation-s-link:visited, .d2l-button, .d2l-button[active][disabled], .d2l-button[disabled]:focus, .d2l-button[disabled]:hover{
+        color: #ccc !important;
+    }
+    .d2l-branding-navigation-dark-foreground-color a.d2l-navigation-s-link, .d2l-branding-navigation-dark-foreground-color a.d2l-navigation-s-link:link, .d2l-branding-navigation-dark-foreground-color a.d2l-navigation-s-link:visited, .d2l-branding-navigation-dark-foreground-color div.d2l-navigation-s-item>span, .d2l-branding-navigation-dark-foreground-color .d2l-navigation-s-group, .d2l-navigation-s-personal-menu-text{
+        color: #aaa !important;
+    }
+    html, iframe{
+        --d2l-color-ferrite: #aaa !important;
+        --d2l-color-tungsten: #fff !important;
+        --d2l-tabs-background-color: #000 !important;
+        --d2l-color-regolith: #000 !important;
+        --d2l-input-background-color: #000 !important;
+        --d2l-dropdown-background-color: #000 !important;
+        --d2l-menu-background-color: #000 !important;
+        --d2l-color-gypsum: #222 !important;
+        --d2l-dropdown-background-color: #000 !important;
+    }
+    d2l-card{
+        background-color: #000 !important;
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "D2L Darkspace",
+    "version": "1.0.0",
+    "icons": {
+        "128": "arizona.png"
+    },
+    "content_scripts": [{
+        "matches":["<all_urls>"],
+        "css": ["darkspace.css"]
+    }],
+    "host_permissions": ["<all_urls>"],
+    "permissions": ["activeTab"]
+}
