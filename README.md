@@ -26,7 +26,7 @@ Input the link `chrome://extensions/` in the Chrome search bar and then ENTER (o
   />
 </picture>
 
-### 3. Add CRX to Chrome
+### 3. Add .crx file to Chrome
 Drag the [D2L_Darkspace.crx](#download) file you've downloaded into the browser and click `Add extension`
 
 
