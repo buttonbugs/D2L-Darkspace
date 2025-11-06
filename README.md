@@ -5,6 +5,11 @@
 
 A chrome extension that can change the D2L Brightspace appearance according to your system settings.
 
+<p align="center">
+    <img src="README/0.0.0%20preview.png" width="40%">
+    <img src="README/0.0.0%20preview_dark.png" width="40%">
+</p>
+
 ## Download
 1. Go to [the latest release](https://github.com/buttonbugs/D2L-Darkspace/releases) &rarr; `Assets`
 2. Click `D2L_Darkspace.crx`
