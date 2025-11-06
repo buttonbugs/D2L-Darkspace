@@ -11,7 +11,7 @@ A chrome extension that can change the D2L Brightspace appearance according to y
 
 ## Setup
 
-### 1. Open in Chrome
+### 1. Open Chrome Extension Settings
 Input the link `chrome://extensions/` in the Chrome search bar and then ENTER (or go to `Chrome` &rarr; `Settings` &rarr; `Extensions`)
 
 ### 2. Turn On Developer Mode
