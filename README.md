@@ -1,4 +1,4 @@
-# D2L Darkspace — Bring Some Darkness to Brightspace 🌙
+# D2L Darkspace — Bring some darkness to Brightspace 🌙
 [![Chrome Extension](https://img.shields.io/badge/crx-Chrome%20Extension-blue.svg)](https://developer.chrome.com/docs/extensions)
 [![manifest_version](https://img.shields.io/badge/manifest_version-3-orange.svg)](https://developer.chrome.com/docs/extensions)
 [![Version](https://img.shields.io/github/v/tag/buttonbugs/D2L-Darkspace)](https://github.com/buttonbugs/D2L-Darkspace/releases)
