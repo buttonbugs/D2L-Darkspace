@@ -6,12 +6,17 @@
     .d2l-tiles-container, .d2l-html-block-rendered > div, .d2l-button.d2l-button-focus, .d2l-button.d2l-button-hover, .d2l-button:focus, .d2l-button:hover, .d2l-button[active] {
         background-color: #111 !important;
     }
-    .d2l-twopanelselector-side.d2l-twopanelselector-side-sep, .d2l-twopanelselector-side-bg.d2l-twopanelselector-side-sep {
+    .d2l-twopanelselector-side.d2l-twopanelselector-side-sep, .d2l-twopanelselector-side-bg.d2l-twopanelselector-side-sep, .d2l-shim {
         background: black !important;
     }
+    .d2l-dialog-mvc .d2l-dialog-inner, .ddial_o2 {
+        background-color: #111 !important;
+        border: 1px solid #333 !important;
+    }
     /* color */
-    .d2l-navigation-s-header-logo-area a.d2l-navigation-s-link, .d2l-navigation-s-header-logo-area a.d2l-navigation-s-link:link, .d2l-navigation-s-header-logo-area a.d2l-navigation-s-link:visited, .d2l-button, .d2l-button[active][disabled], .d2l-button[disabled]:focus, .d2l-button[disabled]:hover{
+    .d2l-navigation-s-header-logo-area a.d2l-navigation-s-link, .d2l-navigation-s-header-logo-area a.d2l-navigation-s-link:link, .d2l-navigation-s-header-logo-area a.d2l-navigation-s-link:visited, .rs_addtools .rsbtn_play, .rsbtn .rsbtn_play, .d2l-select, .d2l-button, .d2l-button[active][disabled], .d2l-button[disabled]:focus, .d2l-button[disabled]:hover{
         color: #ccc !important;
+        background-color: #111 !important;
     }
     .d2l-branding-navigation-dark-foreground-color a.d2l-navigation-s-link, .d2l-branding-navigation-dark-foreground-color a.d2l-navigation-s-link:link, .d2l-branding-navigation-dark-foreground-color a.d2l-navigation-s-link:visited, .d2l-branding-navigation-dark-foreground-color div.d2l-navigation-s-item>span, .d2l-branding-navigation-dark-foreground-color .d2l-navigation-s-group, .d2l-navigation-s-personal-menu-text{
         color: #aaa !important;
@@ -19,6 +24,7 @@
     html, iframe{
         --d2l-color-ferrite: #aaa !important;
         --d2l-color-tungsten: #fff !important;
+        --d2l-color-ferrite: #fff !important;
         --d2l-tabs-background-color: #000 !important;
         --d2l-color-regolith: #000 !important;
         --d2l-input-background-color: #000 !important;
