@@ -1,6 +1,16 @@
 @media (prefers-color-scheme: dark) {
+    /* Flips all light colors to dark, and dark colors to light */
+    html {
+        filter: invert(1) hue-rotate(180deg);
+    }
+
+    /* Fixes images, videos, and icons so they don't look distorted */
+    img, video, .no-invert, d2l-labs-navigation-main-footer, iframe {
+        filter: hue-rotate(180deg) invert(1);
+    }
+
     /* background-color */
-    .d2l-navigation-s, .d2l-branding-navigation-background-color, .d2l-card-content, .d2l-tile, d2l-my-courses-container, #d2l_body, .d2l-body, .d2l-table > tbody, .d2l-table > tfoot, .dco{
+    /* .d2l-navigation-s, .d2l-branding-navigation-background-color, .d2l-card-content, .d2l-tile, d2l-my-courses-container, #d2l_body, .d2l-body, .d2l-table > tbody, .d2l-table > tfoot, .dco{
         background-color: #000 !important;
     }
     .d2l-tiles-container, .d2l-html-block-rendered > div, .d2l-button.d2l-button-focus, .d2l-button.d2l-button-hover, .d2l-button:focus, .d2l-button:hover, .d2l-button[active] {
@@ -12,9 +22,9 @@
     .d2l-dialog-mvc .d2l-dialog-inner, .ddial_o2 {
         background-color: #111 !important;
         border: 1px solid #333 !important;
-    }
+    } */
     /* color */
-    .d2l-navigation-s-header-logo-area a.d2l-navigation-s-link, .d2l-navigation-s-header-logo-area a.d2l-navigation-s-link:link, .d2l-navigation-s-header-logo-area a.d2l-navigation-s-link:visited, .rs_addtools .rsbtn_play, .rsbtn .rsbtn_play, .d2l-select, .d2l-button, .d2l-button[active][disabled], .d2l-button[disabled]:focus, .d2l-button[disabled]:hover{
+    /* .d2l-navigation-s-header-logo-area a.d2l-navigation-s-link, .d2l-navigation-s-header-logo-area a.d2l-navigation-s-link:link, .d2l-navigation-s-header-logo-area a.d2l-navigation-s-link:visited, .rs_addtools .rsbtn_play, .rsbtn .rsbtn_play, .d2l-select, .d2l-button, .d2l-button[active][disabled], .d2l-button[disabled]:focus, .d2l-button[disabled]:hover{
         color: #ccc !important;
         background-color: #111 !important;
     }
@@ -35,5 +45,5 @@
     }
     d2l-card{
         background-color: #000 !important;
-    }
+    } */
 }
