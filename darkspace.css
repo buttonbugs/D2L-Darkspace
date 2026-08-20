@@ -10,7 +10,11 @@
     }
 
     /* Fixes images, videos, and icons so they don't look distorted */
-    img, video, .no-invert, canvas, [style*="background-image"], d2l-labs-navigation-main-footer {
+    img, video, .no-invert, canvas, [style*="background-image"] {
+        filter: hue-rotate(180deg) invert(1);
+    }
+
+    d2l-labs-navigation-main-footer, d2l-dropdown-menu, d2l-dropdown-content {
         filter: hue-rotate(180deg) invert(1);
     }
 
