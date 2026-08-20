@@ -1,11 +1,11 @@
 @media (prefers-color-scheme: dark) {
     /* Flips all light colors to dark, and dark colors to light */
     html {
-        filter: invert(1) hue-rotate(180deg);
         background: black !important;
     }
 
     body {
+        filter: invert(1) hue-rotate(180deg);
         min-height: 100vh;
     }
 
@@ -58,6 +58,6 @@
 }
 
 /* Transition when toggling dark mode */
-html, d2l-labs-navigation-main-footer, d2l-dropdown-menu, d2l-dropdown-content {
+body, d2l-labs-navigation-main-footer, d2l-dropdown-menu, d2l-dropdown-content {
     transition: filter 1s;
 }
