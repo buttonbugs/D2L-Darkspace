@@ -56,3 +56,8 @@
         background-color: #000 !important;
     } */
 }
+
+/* Transition when toggling dark mode */
+html, d2l-labs-navigation-main-footer, d2l-dropdown-menu, d2l-dropdown-content {
+    transition: filter 1s;
+}
