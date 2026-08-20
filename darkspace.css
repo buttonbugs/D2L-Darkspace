@@ -2,10 +2,15 @@
     /* Flips all light colors to dark, and dark colors to light */
     html {
         filter: invert(1) hue-rotate(180deg);
+        background: black !important;
+    }
+
+    body {
+        min-height: 100vh;
     }
 
     /* Fixes images, videos, and icons so they don't look distorted */
-    img, video, .no-invert, d2l-labs-navigation-main-footer, iframe {
+    img, video, .no-invert, canvas, [style*="background-image"], d2l-labs-navigation-main-footer {
         filter: hue-rotate(180deg) invert(1);
     }
 
